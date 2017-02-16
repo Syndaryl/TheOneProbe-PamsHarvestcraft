@@ -5,8 +5,9 @@ buildscript {
 	        name = "hwyla" 
 	    	url "http://tehnut.info/maven" 
 	    } // Waila continuation hwyla is here
-            maven { name = "tterrag maven'
-             url = "http://maven.tterrag.com/"
+            maven { 
+                name = "tterrag maven"
+                url = "http://maven.tterrag.com/"
              } // Walia alternative The One Probe is here.
         maven { url = "http://files.minecraftforge.net/maven" }
     }
